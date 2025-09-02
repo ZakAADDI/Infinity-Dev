@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://infinity-dev.dev/sitemap.xml
