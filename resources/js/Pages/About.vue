@@ -37,7 +37,7 @@
           </div>
           
           <div class="prose prose-lg max-w-none text-gray-700 text-center">
-            <p class="font-style: italic text-lg leading-relaxed mb-6">
+            <p class="font-style: italic text-justify text-lg leading-relaxed mb-6">
                 " J'aime créer des solutions utiles, efficaces et centrées sur l’humain. Je conçois et développe des applications modernes, sur mesure et adaptées aux besoins réels de mes clients. Au-delà du code, je mets l’accent sur l’écoute, la transparence et l’humain. Pour moi, chaque projet est avant tout une collaboration, pas juste une mission. "
             </p>
           </div>
@@ -47,7 +47,7 @@
         <div class="bg-white to-blue-600 rounded-2xl shadow-xl p-8 mb-12">
           <h3 class="text-2xl font-bold text-gray-900 mb-4 text-center">Dernière expérience</h3>
           <p class="text-lg text-gray-700 text-justify leading-relaxed ">
-            Au cours des 2,5 dernières années, <a href="https://www.linkedin.com/in/zakaria-aaddi/" target="_blank" class="text-[#0a66c2] font-bold">Zakaria AADDI</a> a eu le privilège d’évoluer au sein de l’équipe R&D de <a href="https://www.hbblab.fr/" target="_blank" class="text-[#48a49d] font-bold">HBBlab</a> en CDI mais également en tant qu'indépendant. <a href="https://www.hbblab.fr/" target="_blank" class="text-[#48a49d] font-bold">HBBlab</a> est un fabricant de systèmes de diffusion TV professionnels à destination des établissements d’hébergement collectif.
+            Au cours des 2,5 dernières années, <a href="https://www.linkedin.com/in/zakaria-aaddi/" target="_blank" class="text-[#0a66c2] font-bold">Zakaria AADDI</a> a évolué au sein de l’équipe R&D de <a href="https://www.hbblab.fr/" target="_blank" class="text-[#48a49d] font-bold">HBBlab</a> en CDI mais également en tant qu'indépendant. <a href="https://www.hbblab.fr/" target="_blank" class="text-[#48a49d] font-bold">HBBlab</a> est un fabricant de systèmes de diffusion TV professionnels à destination des établissements d’hébergement collectif, comme les hôpitaux, les hôtels et les grands groupes.
           </p>
         </div>
 
@@ -117,11 +117,11 @@
 
         <!-- Projects Section -->
         <div class="bg-white to-blue-600 rounded-2xl shadow-xl p-8 mb-12">
-          <h3 class="text-2xl font-bold text-gray-900 mb-4 text-center">Projets conçus et de développés</h3>
+          <h3 class="text-2xl font-bold text-gray-900 mb-4 text-center">Projets conçus et développés</h3>
           <ul class="list-disc list-inside ml-4">
             <li><span class="text-[#48a49d] font-bold">PMS - Gestion des droits TV</span> <span class="text-xs font-style: italic">(exploitée par exemple par : <a href="https://www.lna-sante.com/" target="_blank" class="text-[#cd026a] font-bold">LNA Santé</a> et <a href="https://www.hopitaux-montsaintmichel.fr//" target="_blank" class="text-[#1f7b91] font-bold">GH Mont Saint-Michel</a>)</span></li>
             <li><span class="text-[#48a49d] font-bold">Application web mobile </span><span class="text-xs font-style: italic">(Testes d'achat de bouquet TV depuis un smartphone)</span></li>
-            <li><span class="text-[#48a49d] font-bold">Éditeur/Générateur d'Application pour TVs </span><span class="text-xs font-style: italic">(Génération du XML qui créé/édite une app TV)</span></li>
+            <li><span class="text-[#48a49d] font-bold">Éditeur/Générateur d'Applications pour TVs </span><span class="text-xs font-style: italic">(Génération du XML qui créé/édite une app TV)</span></li>
           </ul>
         </div>
 
