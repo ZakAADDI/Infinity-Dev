@@ -1,0 +1,75 @@
+{
+  "_AppLayout-Cng0qK0m.js": {
+    "file": "assets/AppLayout-Cng0qK0m.js",
+    "name": "AppLayout",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "public/assets/images/image-profil.png": {
+    "file": "assets/image-profil-CXinGlTR.png",
+    "src": "public/assets/images/image-profil.png"
+  },
+  "public/assets/images/logo-infinity-dev.png": {
+    "file": "assets/logo-infinity-dev-0z055quH.png",
+    "src": "public/assets/images/logo-infinity-dev.png"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-BtFRWs8_.css",
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "names": [
+      "app.css"
+    ]
+  },
+  "resources/js/Pages/About.vue": {
+    "file": "assets/About-CHxWnKfW.js",
+    "name": "About",
+    "src": "resources/js/Pages/About.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_AppLayout-Cng0qK0m.js",
+      "resources/js/app.js"
+    ],
+    "assets": [
+      "assets/image-profil-CXinGlTR.png"
+    ]
+  },
+  "resources/js/Pages/Contact.vue": {
+    "file": "assets/Contact-CMYcM9KO.js",
+    "name": "Contact",
+    "src": "resources/js/Pages/Contact.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_AppLayout-Cng0qK0m.js"
+    ]
+  },
+  "resources/js/Pages/Home.vue": {
+    "file": "assets/Home-DEaMhosT.js",
+    "name": "Home",
+    "src": "resources/js/Pages/Home.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_AppLayout-Cng0qK0m.js",
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/Home-CAQtnWPa.css"
+    ],
+    "assets": [
+      "assets/logo-infinity-dev-0z055quH.png"
+    ]
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-CzFaAxio.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/Pages/About.vue",
+      "resources/js/Pages/Contact.vue",
+      "resources/js/Pages/Home.vue"
+    ]
+  }
+}
