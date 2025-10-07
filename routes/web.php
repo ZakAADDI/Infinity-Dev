@@ -18,3 +18,8 @@ Route::get('/about', function () {
 Route::get('/contact', [ContactController::class, 'show'])->name('contact');
 Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
 
+// Legal Notice page
+Route::get('/legal-notice', function () {
+    return Inertia::render('LegalMentions');
+})->name('legal');
+
