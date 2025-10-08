@@ -34,9 +34,10 @@ class ContactController extends Controller
             $emailContent .= "Cordialement,\nL'équipe Infinity Dev";
 
             Mail::raw($emailContent, function ($message) use ($request) {
-                $message->to('zakaria.aaddi@gmail.com')
+                $message->to(config('mail.from.address'))
                         ->subject('Nouveau message de contact - Infinity Dev')
-                        ->from(config('mail.from.address'), config('mail.from.name'))->replyTo($request->email, $request->name);
+                        ->from(config('mail.from.address'), config('mail.from.name'))
+                        ->replyTo($request->email, $request->name);
             });
 
             return redirect()->back()->with('success', 'Votre message a été envoyé avec succès !');
