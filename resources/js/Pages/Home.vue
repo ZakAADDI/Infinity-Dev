@@ -127,7 +127,7 @@
               </svg>
             </div>
             <h3 class="text-2xl font-bold text-gray-900 mb-4">Sécurité</h3>
-            <p class="text-gray-600">Applications sécurisées et conformes aux standard.</p>
+            <p class="text-gray-600">Applications sécurisées et conformes aux standards.</p>
           </div>
         </div>
       </div>

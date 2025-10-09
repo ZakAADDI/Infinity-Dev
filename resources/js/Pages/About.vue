@@ -7,8 +7,8 @@
       { property: 'og:description', content: 'Présentation du fondateur, expertise, technologies et projets réalisés.' },
       { property: 'og:type', content: 'website' }
     ]" :link="[
-        { rel: 'canonical', href: 'https://infinity-dev.dev/about' }
-      ]" />
+      { rel: 'canonical', href: 'https://infinity-dev.dev/about' }
+    ]" />
     <!-- Hero Section -->
     <section class="bg-gradient-to-r from-violet-600 to-blue-600 py-10">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -133,19 +133,80 @@
         </div>
 
         <!-- Projects Section -->
-        <div class="bg-white to-blue-600 rounded-2xl shadow-xl p-8 mb-12">
-          <h3 class="text-2xl font-bold text-gray-900 mb-4 text-center">Projets conçus et développés</h3>
-          <ul class="list-disc list-inside ml-4">
-            <li><span class="text-[#48a49d] font-bold">PMS - Gestion des droits TV</span> <span
-                class="text-xs font-style: italic">(exploitée par exemple par : <a href="https://www.lna-sante.com/"
-                  target="_blank" class="text-[#cd026a] font-bold">LNA Santé</a> et <a
-                  href="https://www.hopitaux-montsaintmichel.fr//" target="_blank" class="text-[#1f7b91] font-bold">GH
-                  Mont Saint-Michel</a>)</span></li>
-            <li><span class="text-[#48a49d] font-bold">Application web mobile </span><span
-                class="text-xs font-style: italic">(Testes d'achat de bouquet TV depuis un smartphone)</span></li>
-            <li><span class="text-[#48a49d] font-bold">Éditeur/Générateur d'Applications pour TVs </span><span
-                class="text-xs font-style: italic">(Génération du XML qui créé/édite une app TV)</span></li>
-          </ul>
+        <div class="bg-white rounded-2xl shadow-xl p-8 mb-12">
+          <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Projets conçus et développés</h3>
+          
+          <div class="grid gap-6 md:grid-cols-2">
+            <!-- HBBlab PMS -->
+            <div class="bg-white rounded-xl p-6 border border-gray-200 shadow-sm">
+              <div class="flex items-center mb-3">
+                <div class="w-3 h-3 bg-violet-500 rounded-full mr-3"></div>
+                <h4 class="text-lg font-bold text-gray-900">PMS</h4>
+              </div>
+              <p class="text-gray-700 mb-3">Système de gestion des droits TV avec ouverture et fermeture manuelle ou automatique des accès.</p>
+              <div class="flex flex-wrap gap-2 mb-3">
+                <span class="px-3 py-1 bg-violet-100 text-violet-800 rounded-full text-[12px] font-medium">Laravel</span>
+                <span class="px-3 py-1 bg-violet-100 text-violet-800 rounded-full text-[12px] font-medium">Vue.js</span>
+                <span class="px-3 py-1 bg-violet-100 text-violet-800 rounded-full text-[12px] font-medium">Tailwind CSS</span>
+                <span class="px-3 py-1 bg-violet-100 text-violet-800 rounded-full text-[12px] font-medium">MariaDB</span>
+              </div>
+              <a href="https://www.hbblab.fr/" target="_blank" class="text-[#165dfc] font-semibold hover:underline">
+                HBBlab →
+              </a>
+            </div>
+
+            <!-- HBBlab Mobile Web App -->
+            <div class="bg-white rounded-xl p-6 border border-gray-200 shadow-sm">
+              <div class="flex items-center mb-3">
+                <div class="w-3 h-3 bg-violet-500 rounded-full mr-3"></div>
+                <h4 class="text-lg font-bold text-gray-900">App Web Mobile</h4>
+              </div>
+              <p class="text-gray-700 mb-3">Application web mobile pour les tests d'achat de bouquets TV depuis un smartphone.</p>
+              <div class="flex flex-wrap gap-2 mb-3">
+                <span class="px-3 py-1 bg-violet-100 text-violet-800 rounded-full text-[12px] font-medium">PHP</span>
+                <span class="px-3 py-1 bg-violet-100 text-violet-800 rounded-full text-[12px] font-medium">JavaScript</span>
+                <span class="px-3 py-1 bg-violet-100 text-violet-800 rounded-full text-[12px] font-medium">CSS</span>
+              </div>
+              <a href="https://www.hbblab.fr/" target="_blank" class="text-[#165dfc] font-semibold hover:underline">
+                HBBlab →
+              </a>
+            </div>
+
+            <!-- HBBlab TV Editor -->
+            <div class="bg-white rounded-xl p-6 border border-gray-200 shadow-sm">
+              <div class="flex items-center mb-3">
+                <div class="w-3 h-3 bg-violet-500 rounded-full mr-3"></div>
+                <h4 class="text-lg font-bold text-gray-900">Éditeur/Générateur de TV Apps</h4>
+              </div>
+              <p class="text-gray-700 mb-3">Interface de création et édition d'applications pour TV. Générations de fichiers XML.</p>
+              <div class="flex flex-wrap gap-2 mb-3">
+                <span class="px-3 py-1 bg-violet-100 text-violet-800 rounded-full text-[12px] font-medium">Laravel</span>
+                <span class="px-3 py-1 bg-violet-100 text-violet-800 rounded-full text-[12px] font-medium">Vue.js</span>
+                <span class="px-3 py-1 bg-violet-100 text-violet-800 rounded-full text-[12px] font-medium">Tailwind CSS</span>
+                <span class="px-3 py-1 bg-violet-100 text-violet-800 rounded-full text-[12px] font-medium">XML</span>
+              </div>
+              <a href="https://www.hbblab.fr/" target="_blank" class="text-[#165dfc] font-semibold hover:underline">
+                HBBlab →
+              </a>
+            </div>
+
+            <!-- Fariz Electric -->
+            <div class="bg-white rounded-xl p-6 border border-gray-200 shadow-sm">
+              <div class="flex items-center mb-3">
+                <div class="w-3 h-3 bg-violet-500 rounded-full mr-3"></div>
+                <h4 class="text-lg font-bold text-gray-900">Site Vitrine</h4>
+              </div>
+              <p class="text-gray-700 mb-3">Site vitrine professionnel avec présentation des services, du fondateur et formulaire de contact.</p>
+              <div class="flex flex-wrap gap-2 mb-3">
+                <span class="px-3 py-1 bg-violet-100 text-violet-800 rounded-full text-[12px] font-medium">Laravel</span>
+                <span class="px-3 py-1 bg-violet-100 text-violet-800 rounded-full text-[12px] font-medium">Inertia.js</span>
+                <span class="px-3 py-1 bg-violet-100 text-violet-800 rounded-full text-[12px] font-medium">Tailwind CSS</span>
+              </div>
+              <a href="https://www.farizelectric.fr/" target="_blank" class="text-[#165dfc] font-semibold hover:underline">
+                Fariz Electric →
+              </a>
+            </div>
+          </div>
         </div>
 
         <div class="flex flex-col items-center space-y-2 text-xl mt-10 text-center">
